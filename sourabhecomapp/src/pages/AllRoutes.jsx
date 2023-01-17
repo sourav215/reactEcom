@@ -1,11 +1,10 @@
-
+import Header from "../common/header/Header.jsx";
 
 function AllRoutes() {
-
-    return (
-        <div>
-            <h1>Hello</h1>
-        </div>
-    )
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 export default AllRoutes;
